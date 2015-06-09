@@ -1,0 +1,71 @@
+.popup{
+	margin: 0 auto;
+	display: table;
+	text-align: center;
+	vertical-align: center;
+}
+.popup_body{
+	display: block;
+	width: 590px;
+	border-radius: 5px;
+	overflow:hidden;
+	background-color: rgb(239,243,247);
+}
+.popup_head{
+	display: table;
+	width: 100%;
+	height: 92px;
+	background: rgb(51,204,255);
+	border-bottom: 15px solid rgb(103,223,250);
+	margin-bottom: 34px;
+}
+.popup_head_text{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'fira_sansbook';
+	font-size: 36px;
+	color:#ffffff; 
+}
+.popup_table{
+	width: 490px;
+	margin:0 auto;
+	display: table;
+
+}
+.popup_row{
+	vertical-align: center;
+	text-align: center;
+}
+.popup_row .span_popup{
+	display: block;
+	font-family: 'fira_sanslight';
+	font-size: 36px;
+	color:#959aaf;
+}
+.popup_row .input_popup{
+	width: 100%;
+	height: 60px;
+	border: 1px solid rgb(103,223,250);
+	border-radius: 3px;
+	color: rgb(103,223,250);
+	font-family: 'fira_sanslight';
+	font-size: 36px;
+	margin-bottom: 34px;
+}
+.popup_row .pupup_send{
+	background-color: rgb(103,223,250);
+	padding: 5px 20px;
+	border:none;
+	border-bottom: 4px solid rgb(59,168,192);
+	border-radius: 5px;
+	color:#ffffff;
+	font-family: 'fira_sansbook';
+	font-size: 36px;
+	margin-bottom: 23px;
+}
+.popup_row .pupup_send:hover{
+	border:none;
+	padding: 7px 20px;
+}
+
