@@ -10,14 +10,15 @@
     <meta name="keywords" content="лучший лес в городе Саратов дешевый лес Саратов лучший лес сухой лес мокрый лес свежий лес">
     <meta name="author" content="Прокопенко Иван Игоревич">
     <!-- CSS -->
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="bower/normalize.css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
     
 </head>
 <body>
     <!-- [if lt IE 8] >
         <p>Ваш браузер <strong>устарел</strong> Пожалуйста <a href="http://btowserhappy.com/">обновите</a> его.</p>
     <![endif]-->
+
     <div class="wrapper">
         <section class="top">
             <nav class="top-nav">
@@ -29,16 +30,20 @@
                 </ul>
             </nav>
             <header class="slider">
-
-                <span>Саратовский лес - Логотип <a href="#">Саратовский лес</a> </span>
+                <div class="hidden">
+                    <img src="img/saratov_les.png" alt="Логотип Саратов Лес">
+                    <span>Саратовский лес - Логотип 
+                        <a href="#">Саратовский лес</a> 
+                    </span>
+                </div>
             </header>
         </section>
         <section class="content">
             <section class="titles">
                 <ul class="titles-list">
-                    <li class="titles-item">
+                     <li class="titles-item">
                         <h2 class="titles-zagolovok">Заголовок1</h2>
-                        <div class="titles-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero deleniti doloribus illo, quod, corporis animi et, laborum magnam eos delectus quibusdam iure qui. Aliquid sint magni ipsam doloremque, ipsa quas.</div>
+                        <div class="titles-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est numquam, possimus sed, facere odit a quia modi ut, asperiores commodi ea. Recusandae adipisci, quae provident, quia vero laboriosam officiis.</div>
                         <a href="#" class="artickes-link">Подробнее ></a>
                     </li>
                     <li class="titles-item">
@@ -54,22 +59,24 @@
                 </ul>
             </section>
             <section class="wrap-articles">
-                <div class="articles">
-                    <ul class="articles-list">
-                        <li class="articles-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi minima quasi non in facere, eum repudiandae, quam ut ullam quod quos. Dicta iusto a rerum impedit in beatae dolorum reprehenderit.
-                            <a href="#" class="articles-link">Подробнее ></a>
-                        </li>
-                        <li class="articles-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit rem sunt dicta amet itaque. Fugit pariatur, excepturi eligendi, omnis nihil ipsum cupiditate repellendus dolor modi dolorum voluptatum error consequatur expedita!
-                            <a href="#" class="articles-link">Подробнее ></a>
-                        </li>
-                        <li class="articles-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit id voluptatem est. Blanditiis cum nobis laudantium nulla, dolor molestiae tenetur similique eius quis eaque quo, facere officiis, quasi sit aperiam!
-                            <a href="#" class="articles-link">Подробнее ></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="article-main">
-                    <h1 class="article-zagolovok">Статья1</h1>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, excepturi vel nesciunt, ea autem provident aliquam, neque commodi repellat soluta ratione error hic est architecto! Assumenda vel, labore a est.
+                <div class="wrap-body-articles clearfix">
+                    <div class="articles clearfix">
+                        <ul class="articles-list">
+                            <li class="articles-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi minima quasi non in facere, eum repudiandae, quam ut ullam quod quos. Dicta iusto a rerum impedit in beatae dolorum reprehenderit.
+                                <a href="#" class="articles-link">Подробнее ></a>
+                            </li>
+                            <li class="articles-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit rem sunt dicta amet itaque. Fugit pariatur, excepturi eligendi, omnis nihil ipsum cupiditate repellendus dolor modi dolorum voluptatum error consequatur expedita!
+                                <a href="#" class="articles-link">Подробнее ></a>
+                            </li>
+                            <li class="articles-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit id voluptatem est. Blanditiis cum nobis laudantium nulla, dolor molestiae tenetur similique eius quis eaque quo, facere officiis, quasi sit aperiam!
+                                <a href="#" class="articles-link">Подробнее ></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="article-main clearfix">
+                        <h1 class="article-zagolovok">Статья1</h1>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, excepturi vel nesciunt, ea autem provident aliquam, neque commodi repellat soluta ratione error hic est architecto! Assumenda vel, labore a est.
+                    </div>
                 </div>
             </section>
             <section class="articles">
